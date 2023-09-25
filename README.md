@@ -40,9 +40,9 @@ pip install openai
 
 From the video: ```demo.py``` in this repo (NOTE: replace \<YOUR API KEY GOES HERE> with your API Key)
 
-From the video: Running the application (if you're file name is demo.py)
+From the video: TEST!!! by running the application
 ```
-python demo.py (You may have to do python3 demo.py depending on your install)
+python demo.py
 ```
 
 ## COMMON ISSUES
