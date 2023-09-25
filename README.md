@@ -70,7 +70,7 @@ You need to ensure that you ran the following command prior to attempting to com
 ```
 pip install openai
 ```
-**Issue 3**
+**Issue 3:**
 
 If you get the following error:
 
@@ -78,4 +78,16 @@ If you get the following error:
 openai.error.AuthenticationError: Incorrect API key provided: <YOUR AP************ERE>. You can find your API key at https://platform.openai.com/account/api-keys.
 ```
 
-You have either a bad API Key or you have not updated the code with your current API Key. To fix this, either overwrite the \<YOUR API KEY GOES HERE> section with your API Key, or go through the same process as getting a new API Key (https://platform.openai.com/account/api-keys)  and replace it.
+You have either a bad API Key or you have not updated the code with your current API Key. To fix this, either overwrite the \<YOUR API KEY GOES HERE> section with your API Key, or go through the same process as getting a new API Key 
+(https://platform.openai.com/account/api-keys)  and replace it.
+
+**Issue 4:**
+
+If you get the following error:
+
+```
+Command 'python' not found, did you mean:
+```
+* You need to check if python is installed --> ```python3 --version```
+* If it installed, check if your symbolick link is setup as python3, try ```python3 demo.py```
+
