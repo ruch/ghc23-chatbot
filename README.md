@@ -38,30 +38,11 @@ From the video: Installing OpenAI for use with Python:
 pip install openai
 ```
 
-From the video: Source code for testing purposes (NOTE: replace \<YOUR API KEY GOES HERE> with your API Key)
+From the video: ```demo.py``` in this repo (NOTE: replace \<YOUR API KEY GOES HERE> with your API Key)
 
-```
-import  openai
-
-openai.api_key =  "<YOUR API KEY GOES HERE>"
-
-engine  =  "text-davinci-003"
-prompt  =  "Tell me a joke"
-
-response  =  openai.Completion.create(
-engine  =  engine,
-prompt  =  prompt,
-max_tokens  =  1024,
-n=1,
-stop=None,
-temperature  =  0.7
-)
-
-print (response["choices"][0]["text"])
-```
 From the video: Running the application (if you're file name is demo.py)
 ```
-python demo.py
+python demo.py (You may have to do python3 demo.py depending on your install)
 ```
 
 ## COMMON ISSUES
