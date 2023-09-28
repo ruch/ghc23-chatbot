@@ -1,5 +1,4 @@
 import openai
-import streamlit as st
 openai.api_key="your API Key"
 
 def generate_response(myprompt):
