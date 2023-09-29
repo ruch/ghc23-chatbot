@@ -1,6 +1,8 @@
 import openai
 import streamlit as st
 
+openai.api_key = open('apikey.txt').read()
+
 
 def generate_response(myprompt):
     response = openai.Completion.create(
