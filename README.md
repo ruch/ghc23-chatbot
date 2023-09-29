@@ -44,6 +44,15 @@ From the video: TEST!!! by running the application
 ```
 python demo.py
 ```
+## STREAMLIT
+1. Commit your code (remove API key line). 
+2. Create `requirements.txt` and include all the module names (names only, import keyword not needed)
+3. Create a streamlit account and tie it to your github. Go to https://streamlit.io
+4. Create a new app -- Provide your github repo, branch, python file.
+5. Choose a custom name of your app.
+6. Click on Advanced Settings, go to SECRETS and provide OPENAI_API_KEY="your API key here"
+7. Hit Deploy.
+8. Your app should come up. If you face issues, ask ChatGPT.
 
 ## COMMON ISSUES
 Here's a list of some common issues that you may come across. If you have any issues, please let us know and we'll add them to the list to help others out.
