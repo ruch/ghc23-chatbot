@@ -91,3 +91,14 @@ Command 'python' not found, did you mean:
 * You need to check if python is installed --> ```python3 --version```
 * If it installed, check if your symbolick link is setup as python3, try ```python3 demo.py```
 
+**Issue 5:**
+
+If you get the following error:
+
+```
+You exceeded your current quota, please check your plan and billing details 
+```
+* This EITHER means you have exhausted your $5 free credit that were allocated with free API account 
+* OR you opened your account 90 days ago
+
+* To fix - you need to get a paid account. Remember to set the max billing amount to a something like $5 or so. It is sufficient to last for months.
