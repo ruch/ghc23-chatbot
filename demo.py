@@ -1,5 +1,6 @@
 import openai
 import streamlit as st
+# openai.api_key = "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"
 
 
 def generate_response(myprompt):
