@@ -1,18 +1,21 @@
 import openai
-openai.api_key="your API Key"
+import streamlit as st
 
 def generate_response(myprompt):
     response = openai.Completion.create(
         engine="text-davinci-003",
-        prompt=myprompt,
-        temperature=0.3,
-        max_tokens=1024
+        prompt="You are a trained psychiatrist. Answer the prompts accordingly. ###" + myprompt,
+        temperature=.3,
+        max_tokens=1023
     )
     return response.choices[0].text.strip()
 
 def main ():
-    myprompt = input("How can I help you? \n")
-    print(generate_response(myprompt))
+    st.title("Friendly Chat Therapist")
+    myprompt = st.text_input("I'm Dr Fraiser Crane. I'm listening. How can I help you? \n")
+    # print(generate_response(myprompt))
+    if st.button("Submit"):
+        st.write(generate_response(myprompt))
 
 if __name__ == "__main__":
     main()
