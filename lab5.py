@@ -2,7 +2,7 @@ import openai
 
 #NOTE: Run this command prior to running the code below: pip install openai
 
-openai.api_key = "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"
+openai.api_key = "Your API key here"
 
 #Set up the model and prompt
 engine = "text-davinci-003"
