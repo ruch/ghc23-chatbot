@@ -45,6 +45,12 @@ From the video: TEST!!! by running the application
 python demo.py
 ```
 ## STREAMLIT
+Streamlit creates a web interface for your python code with a few lines of code. You could do it in your local or deploy it to streamlit public cloud.
+
+### Run locally
+`streamlit run therapist.py`
+
+### Deploy to public cloud
 1. Commit your code (remove API key line). 
 2. Create `requirements.txt` and include all the module names (names only, import keyword not needed)
 3. Create a streamlit account and tie it to your github. Go to https://streamlit.io
@@ -111,3 +117,22 @@ You exceeded your current quota, please check your plan and billing details
 * OR you opened your account 90 days ago
 
 * To fix - you need to get a paid account. Remember to set the max billing amount to a something like $5 or so. It is sufficient to last for months.
+
+## Resources to further your learning
+**Prompt Engineering Best Practices** 
+https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api 
+
+**AI for everyone by Andrew Ng**
+https://www.coursera.org/learn/ai-for-everyone 
+
+**ChatGPT Prompt Engineering for Developers** 
+https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/
+
+**Power of ChatGPT in your spreadsheets**
+https://www.linkedin.com/pulse/get-power-chatgpt-your-spreadsheets-docs-allie-k-miller/ 
+
+**AI for Good Specialization (applied learning)**
+https://www.coursera.org/specializations/ai-for-good 
+
+**Introduction to Generative AI (Google Cloud)**
+https://www.cloudskillsboost.google/course_templates/536 
